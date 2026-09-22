@@ -1,0 +1,17 @@
+# ROS 2 build and runtime outputs
+/build/
+/install/
+/log/
+
+# Large recorded datasets
+/bags/
+
+# Generated evaluation outputs
+/evaluation/
+
+# Python caches and local generated files
+__pycache__/
+*.py[cod]
+
+# Keep nested package repositories from being treated as separate Git roots.
+# Their source files are tracked by this workspace repository.
