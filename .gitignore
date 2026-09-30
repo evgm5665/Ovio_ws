@@ -13,5 +13,8 @@
 __pycache__/
 *.py[cod]
 
+# Local SSH private key accidentally stored at the workspace root
+/ssh -T git@github.com
+
 # Keep nested package repositories from being treated as separate Git roots.
 # Their source files are tracked by this workspace repository.
